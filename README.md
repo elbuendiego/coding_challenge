@@ -20,10 +20,10 @@ mlflow run .
 
 The default configuration is found in the config.yaml file, and it is managed through hydra. The parameters can be overwritten by specifying them in the command line as follow (for n_estimators only):
 ```console
-mlflow run -P n_estimators=500
+mlflow run . -P n_estimators=500
 ```
 
 Note that MLflow creates the necessary virtual enviroments for each component, which are defined in each component's conda.yml file. 
 
 ## Dependencies
-MLflow and conda are required. Other packages are managed automatically through virtual environment creation. 
+MLflow and conda are required. Other packages should be managed automatically through the creation of virtual environments. 
