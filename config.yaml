@@ -1,0 +1,24 @@
+main:
+  project_name: riverflow_prediction
+  experiment_name: challenge
+data:
+  file_name: "uke_eggedal_data_challenge.nc"
+  out_name: "train_test_dataset.csv"
+random_forest:
+  n_estimators: 1788
+  criterion: 'squared_error'
+  max_depth: 90
+  min_samples_split: 10
+  min_samples_leaf: 7
+  min_weight_fraction_leaf: 0.0
+  max_features: 4
+  max_leaf_nodes: null
+  min_impurity_decrease: 0.0
+  bootstrap: true
+  oob_score: false
+  n_jobs: null
+  random_state: null
+  verbose: 0
+  warm_start: false
+  ccp_alpha: 0.0
+  max_samples: null

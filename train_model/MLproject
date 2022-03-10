@@ -1,0 +1,16 @@
+name: train_rf
+conda_env: conda.yml
+
+entry_points:
+  main:
+    parameters:
+      train_data:
+        description: Path to csv file with train-test data
+        type: str
+      rf_params:
+        description: Path to json file with RF parameters
+        type: str 
+
+    command: >-
+      python train_rf.py --train_data {train_data} \
+                         --rf_params {rf_params}

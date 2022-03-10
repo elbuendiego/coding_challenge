@@ -1,0 +1,8 @@
+name: coding_challenge
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - mlflow=1.24.0
+  - hydra-core=1.0.6
