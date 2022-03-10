@@ -1,4 +1,4 @@
-# ClimateAi_challenge
+# Coding_challenge
 
 - Coding challenge of predicting river flow data 7 days ahead
 - By Diego Alfaro, 03-2022
